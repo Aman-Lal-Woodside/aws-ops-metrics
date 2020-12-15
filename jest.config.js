@@ -12,8 +12,8 @@ module.exports = {
   },
   "testMatch": [
     "<rootDir>/test/?(*.)(spec|test).ts?(x)",
-    "<rootDir>/test/*test.ts",
     "<rootDir>/test/?(*.)(spec|test).js?(x)",
+    "<rootDir>/test/*test.ts",
     "**/*.steps.ts?(x)"
   ],
   "testEnvironment": "node",
